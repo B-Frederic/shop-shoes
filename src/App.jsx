@@ -1,9 +1,8 @@
-import React from "react";
 
 const App = () => {
   return (
     <div>
-      <h1>Shop - Shoes</h1>
+      <h1 className="bg-black text-white font-bold">Shop - Shoes</h1>
     </div>
   );
 };
