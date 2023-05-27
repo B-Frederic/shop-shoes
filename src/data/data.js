@@ -32,16 +32,16 @@ import messenger from "../assets/img/messenger.svg";
 
 
 const heroSection = {
-  title: "Jouer avec Nike électrique",
-  subtitle: "Adopter 2.0 Sneakers",
+  title: "Porter Nike électrique",
+  subtitle: "Sneakers 2.0",
   img: heroimg,
-  btntext: "Voir le produit",
+  btnText: "Voir le produit",
   videos: [
-    { imgsrc: vcover1, clip: clip },
-    { imgsrc: vcover2, clip: clip },
-    { imgsrc: vcover3, clip: clip },
+    { imgSrc: vcover1, clip: clip },
+    { imgSrc: vcover2, clip: clip },
+    { imgSrc: vcover3, clip: clip },
   ],
-  sociallinks: [
+  socialLinks: [
     { icon: facebook },
     { icon: messenger },
     { icon: instagram },
