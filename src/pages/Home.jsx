@@ -1,10 +1,7 @@
-// Components
-import FlexContent from '../components/FlexContent';
-import HeroSection from '../components/HeroSection';
-import Products from '../components/Products';
-import Sales from '../components/Sales';
+// Components via index
+import {HeroSection, Sales, FlexContent, Products, Stories} from '../components';
 // Data
-import { heroSection, popularSales, products, highlight, sneaker } from "../data/data";
+import { heroSection, popularSales, products, highlight, sneaker, story } from "../data/data";
 
 const Home = () => {
     return (
@@ -14,6 +11,7 @@ const Home = () => {
           <FlexContent details={highlight} ifExists/>
           <Products products={products} />
           <FlexContent details={sneaker} />
+          <Stories story={story} />
         </div>
     );
 };
