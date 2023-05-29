@@ -24,7 +24,7 @@ const Items = ({color, shadow, title, text, img, btn, rating, price}) => {
                 </div>
 
             </div>
-            <div>
+            <div className="mt-2">
                 <img src={img} alt={`chaussure ${title}`} className="h-36 w-64 transition-theme hover:rotate-12" />
             </div>
         </div>
