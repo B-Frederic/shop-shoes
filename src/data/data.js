@@ -52,7 +52,7 @@ const heroSection = {
 
 
 const popularSales = {
-  title: "Ventes populaires",
+  title: "Les plus populaires",
   items: [
     {
       id: "0p0x1",
@@ -61,7 +61,7 @@ const popularSales = {
       rating: "4.9",
       btn: "Acheter",
       img: psale2,
-      price: "200",
+      price: "199",
       color: "from-blue-600 to-blue-500",
       shadow: "shadow-lg shadow-blue-500",
     },
@@ -72,7 +72,7 @@ const popularSales = {
       rating: "4.5",
       btn: "Acheter",
       img: psale1,
-      price: "200",
+      price: "99",
       color: "from-red-500 to-rose-500",
       shadow: "shadow-lg shadow-rose-500",
     },
@@ -83,7 +83,7 @@ const popularSales = {
       rating: "5",
       btn: "Acheter",
       img: psale3,
-      price: "200",
+      price: "149",
       color: "from-violet-500 to-indigo-500",
       shadow: "shadow-lg shadow-violet-500",
     },
@@ -111,8 +111,8 @@ const sneaker = {
 };
 
 
-const topRates = {
-  title: "Ventes les mieux notées",
+const products = {
+  title: "Tous nos produits",
   items: [
     {
       id: "0M0x1",
@@ -377,4 +377,4 @@ const footer = {
   ]
 };
 
-export { heroSection, footer, story, sneaker, highlight, topRates, popularSales };
+export { heroSection, footer, story, sneaker, highlight, products, popularSales };
