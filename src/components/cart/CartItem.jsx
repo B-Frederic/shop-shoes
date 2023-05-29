@@ -106,7 +106,7 @@ const CartItem = ({
       <div className="ml-3 grid items-center gap-4 w-full">
         <div className="grid items-center justify-center">
           <h2 className="text-lg lg:text-base text-slate-900 font-medium">
-            ${price * cartQuantity}
+            {price * cartQuantity}€
           </h2>
         </div>
         <div className="grid items-center justify-center">
