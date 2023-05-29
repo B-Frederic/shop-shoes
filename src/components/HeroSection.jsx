@@ -31,7 +31,7 @@ const HeroSection = ({ heroSection: {title, subtitle, videos, img, btnText, soci
                     </div>
                 </div>
                 <div className="mt-8">
-                    <img className="w-auto h-[45vh] lg:h-[35vh] md:h-[31vh] sm:h-[21vh] xsm:h-[16vh] transitions-theme -rotate-[25deg] hover:rotate-0 cursor-pointer object-fill" src={img} alt="basket" />
+                    <img className="w-auto h-[45vh] lg:h-[35vh] md:h-[31vh] sm:h-[21vh] xsm:h-[20vh] transitions-theme -rotate-[25deg] hover:rotate-0 cursor-pointer object-fill" src={img} alt="basket" />
                 </div>
             </div>
         </div>

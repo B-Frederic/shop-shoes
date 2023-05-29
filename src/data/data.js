@@ -42,9 +42,9 @@ const heroSection = {
     { imgSrc: vcover3, clip: clip },
   ],
   socialLinks: [
+    { icon: instagram },
     { icon: facebook },
     { icon: messenger },
-    { icon: instagram },
     { icon: twitter },
     { icon: youtube },
   ],
