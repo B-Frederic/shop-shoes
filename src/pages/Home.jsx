@@ -1,14 +1,13 @@
 // Components via index
-import {HeroSection, Sales, FlexContent, Products, Stories, Footer, Header} from '../components';
+import {HeroSection, Sales, FlexContent, Products, Stories, Footer, Header, Cart} from '../components';
 // Data
 import { heroSection, popularSales, products, highlight, sneaker, story } from "../data/data";
 
 const Home = () => {
     return (
       <>
-        <header>
-          <Header />
-        </header>
+        <Header />
+        <Cart />
         <main className="flex flex-col gap-16 relative">
           <HeroSection heroSection={heroSection} />
           <Sales sales={popularSales} ifExists />
@@ -17,9 +16,7 @@ const Home = () => {
           <FlexContent details={sneaker} />
           <Stories story={story} />
         </main>
-        <footer>
-          <Footer />
-        </footer>
+        <Footer />
       </>
     );
 };

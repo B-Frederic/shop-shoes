@@ -36,7 +36,7 @@ const Stories = ({ story : { title, news }}) => {
             <div className="mt-7">
                 <Splide options={splideOptions}>
                     {news.map((item, index) => (
-                        <SplideSlide key={index} className="mb-0.5">
+                        <SplideSlide key={index} className="mb-0.5 cursor-grab">
                         <div className="relative grid items-center gap-4 pb-2 rounded-lg shadow shadow-slate-200 ring-1 ring-slate-200">
                           <div className="flex items-center justify-center">
                             <img
