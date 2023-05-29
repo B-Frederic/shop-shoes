@@ -9,8 +9,8 @@ const Home = () => {
     return (
         <div className="flex flex-col gap-16 relative">
           <HeroSection heroSection={heroSection} />
-          <Sales sales={popularSales} ifExists />
-          <Products products={products} ifExists />
+          <Sales sales={popularSales} />
+          <Products products={products} />
         </div>
     );
 };
