@@ -1,8 +1,8 @@
 // Utils
-import Items from "./utils/Items";
 import Title from "./utils/Title";
+import Items from "./utils/Items";
 
-const Sales = ({ ifExists, sales: { title, items } }) => {
+const Products = ({ ifExists, products: { title, items } }) => {
   return (
     <div className="nike-container">
       <Title title={title} />
@@ -15,4 +15,4 @@ const Sales = ({ ifExists, sales: { title, items } }) => {
   );
 };
 
-export default Sales;
+export default Products;

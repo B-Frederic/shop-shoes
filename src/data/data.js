@@ -78,7 +78,7 @@ const popularSales = {
     },
     {
       id: "0p0x3",
-      title: "Chaussure intelligente Nike 2.0",
+      title: "Intelligente Nike 2.0",
       text: "Chaussure de course",
       rating: "5",
       btn: "Acheter",
