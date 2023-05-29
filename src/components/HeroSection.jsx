@@ -2,7 +2,6 @@
 import Videos from "./utils/Videos";
 import SocialLink from "./utils/SocialLink";
 
-
 const HeroSection = ({ heroSection: {title, subtitle, videos, img, btnText, socialLinks} }) => {
 
     return (
