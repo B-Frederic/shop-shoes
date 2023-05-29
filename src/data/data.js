@@ -346,35 +346,4 @@ const story = {
   ],
 };
 
-
-const footer = {
-  titles: [ {title: "A propos"},{title: "Obtenir de l'aide"},{title: "Entreprise"} ],
-  links: [
-    [
-      {link: "Nouvelles"},
-      {link: "Carrières"},
-      {link: "Investisseurs"},
-      {link: "Notre but"},
-      {link: "Durabilité"},
-    ],
-    [
-      {link: "Statut de la commande"},
-      {link: "Expédition & Livraison"},
-      {link: "Options de paiment"},
-      {link: "Solde de la carte-cadeau"},
-      {link: "Contactez-nous"},
-      {link: "FAQ"},
-      {link: "Blog"},
-    ],
-    [
-      {link: "Cartes cadeaux"},
-      {link: "Promotions"},
-      {link: "Trouver un magasin"},
-      {link: "S'inscrire"},
-      {link: "Journal Nike"},
-      {link: "Envoyez vos commentaires"},
-    ],
-  ]
-};
-
-export { heroSection, footer, story, sneaker, highlight, products, popularSales };
+export { heroSection, story, sneaker, highlight, products, popularSales };
