@@ -68,11 +68,11 @@ const CartItem = ({
         >
           <img
             src={img}
-            alt={`img/cart-item/${id}`}
+            alt="chaussure"
             className="w-36 h-auto object-fill lg:w-28"
           />
           <div className="absolute right-1.5 top-1.5 blur-theme-effect bg-white/80 text-black text-xs py-1 px-2 rounded font-bold">
-            ${price}
+            {price}€
           </div>
         <div className="grid items-center gap-4 w-full lg:w-[140px]">
           <div className="grid items-center leading-none">
