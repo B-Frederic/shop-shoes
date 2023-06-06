@@ -26,7 +26,7 @@ const Header = () => {
     }
 
     const navScroll = () => {
-        if(window.scrollY > 50) {
+        if(window.scrollY > 100) {
             setScrollbar(true);
         } else {
             setScrollbar(false);
@@ -42,7 +42,7 @@ const Header = () => {
     }, [])
 
   return (
-    <div className={!scrollbar ? "absolute top-7 left-0 right-0 opacity-100 z-50" : "fixed duration-1000 top-0 left-0 right-0 h-[10vh] flex items-center justify-center opacity-100 z-[200] blur-effect-theme"}>
+    <div className={`fixed duration-1000 top-0 left-0 right-0 h-[10vh] flex items-center justify-center opacity-100 z-[200] ${scrollbar && "blur-effect-theme"}`}>
       <nav className="flex items-center justify-between nike-container">
         <div className="flex items-center">
           <img src={logo} alt="logo/img" className={`w-20 h-auto ${scrollbar && "filter brightness-0"}`} />
