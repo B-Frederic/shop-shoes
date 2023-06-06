@@ -60,9 +60,7 @@ const CartItem = ({
 
   return (
     <div className="flex items-center px-2 w-[300px]">
-
       <div className="flex items-center gap-5">
-
         <div
           className={`bg-gradient-to-b ${color} ${shadow} relative rounded p-3 transition-all duration-75 ease-in-out grid items-center justify-center w-[230px]`}
         >

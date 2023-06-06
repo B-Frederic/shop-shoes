@@ -7,7 +7,7 @@ const FlexContent = ({ ifExists, details : {heading, title, text, btn, url, img}
                 <h2 className="text-4xl sm:text-3xl font-bold text-gradient">{heading}</h2>
                 <h3 className="text-5xl lg:text-4xl md:text-3xl sm:text-2xl font-bold text-slate-900 filter drop-shadow-lg">{title}</h3>
                 <p className="xl:text-sm my-4 text-slate-900">{text}</p>
-                <a href={url} className="flex items-center" target={"_blank"} role="button">
+                <a href={url} className="flex items-center" target={"_blank"} role="button" rel="noreferrer">
                     <button className="button-theme bg-slate-900 shadow-slate-900 text-slate-100 py-1.5" type="button">{btn}</button>
                 </a>
             </div>
