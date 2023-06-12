@@ -3,6 +3,8 @@ import { StarIcon, ShoppingBagIcon } from "@heroicons/react/24/solid";
 // Redux
 import { useDispatch } from "react-redux";
 import { setAddItemToCart } from "../../redux/CartSlice";
+// Toastify
+import { ToastContainer, toast } from "react-toastify";
 
 
 const Items = ({ id, color, shadow, title, text, img, btn, rating, price }) => {
@@ -12,6 +14,8 @@ const Items = ({ id, color, shadow, title, text, img, btn, rating, price }) => {
     const item = { id, title, text, img, color, shadow, price };
 
     dispatch(setAddItemToCart(item));
+
+    toast.success(`${title} a été ajouté au panier`)
   };
 
   return (
@@ -54,6 +58,18 @@ const Items = ({ id, color, shadow, title, text, img, btn, rating, price }) => {
           className="h-36 w-64 transition-theme hover:rotate-12 cursor-pointer"
         />
       </div>
+      <ToastContainer
+        position="top-left"
+        autoClose={2000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
     </div>
   );
 };

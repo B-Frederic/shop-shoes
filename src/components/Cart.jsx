@@ -43,7 +43,11 @@ const Cart = () => {
   };
 
   const handleResetCart = () => {
-    dispatch(setClearCartItems())
+
+    if(window.confirm(`Voulez-vous vider l'ensemble de votre panier ?`)){
+
+      dispatch(setClearCartItems())
+    }
   }
 
   return (

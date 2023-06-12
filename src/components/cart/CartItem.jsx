@@ -15,18 +15,22 @@ const CartItem = ({
   const dispatch = useDispatch();
 
   const removeItem = () => {
-    dispatch(
-      setRemoveItemFromCart({
-        id,
-        title,
-        text,
-        img,
-        color,
-        shadow,
-        price,
-        cartQuantity,
-      })
-    );
+
+    if(window.confirm(`Voulez-vous supprimer "${title}" de votre panier ?`)){
+
+      dispatch(
+        setRemoveItemFromCart({
+          id,
+          title,
+          text,
+          img,
+          color,
+          shadow,
+          price,
+          cartQuantity,
+        })
+        );
+    }
   };
 
   const incrementItemQty = () => {
